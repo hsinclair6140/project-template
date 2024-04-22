@@ -14,12 +14,14 @@ The following section provides instructions on how to build the HTML locally. Th
 [Python 3.11-64 bit](https://www.python.org/downloads/windows/).
 
 ##### Python Package Dependencies
-The requirements.txt file contains all Python dependencies needed to build the Sphinx documentation locally. For convenience, batch script 'Documentation/doc_env_setup.bat' can be run to setup a new environment. Alternatively, run the following command using an alternate environment:
+To quickly setup the Python virtual environment, execute the doc_env_setup.bat file. This will create a Python virtual environment that can be used to build the docs. 
 
-`pip install -r requirements.txt`
+Alternatively, to manually install the Python dependencies to an existing environment, run the following command using the desired Python environment:
+
+`pip install -r doc_requirements.txt`
 
 ### Build
-To build the Sphinx code, run the following command in the Documentation folder of the project:
+To build the Sphinx code, run the following command:
 
 `sphinx-build doc _build`
 
