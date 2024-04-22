@@ -6,7 +6,9 @@ project-template
    :caption: Contents:
    :titlesonly:
 
-   game_design_doc
+   DevelopmentEnvironmentSetupGuide/development-environment-setup-guide
+   GDD/game-design-doc
+
 
 Indices and tables
 ==================
